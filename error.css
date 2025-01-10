@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", serif !important;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+}
+
+main img {
+  margin-bottom: 40px;
+}
+
+main h4 {
+  font-weight: 600 !important;
+  color: #111827;
+}
+
+main p {
+  color: #6b7280;
+  font-weight: 500;
+}
+
+main button {
+  padding: 10px 20px;
+  background-color: #011594;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+  font-weight: 0.9rem;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 455px) {
+  .error-400 img {
+    width: 250px;
+  }
+
+  .error-401 img,
+  .error-429 img {
+    width: 250px;
+  }
+
+  .error-403 img,
+  .error-405 img,
+  .error-500 img,
+  .error-502 img,
+  .error-503 img {
+    width: 300px;
+  }
+
+  .error-404 img,
+  .error-504 img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  main p br {
+    display: none;
+  }
+}
