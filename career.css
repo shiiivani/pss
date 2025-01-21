@@ -695,8 +695,9 @@ nav.active .mobile-nav {
 }
 
 /* Listing section */
-.jpb-listing-section {
-  height: 100vh;
+.job-listing-section {
+  overflow: hidden;
+  background-color: #ffffff;
 }
 .job-listing-section .container > div {
   width: 50%;
@@ -707,6 +708,7 @@ nav.active .mobile-nav {
   position: absolute;
   bottom: 0px;
   left: -100px;
+  z-index: -1;
 }
 
 .job-listing-section .container > div:first-child {
@@ -774,6 +776,7 @@ nav.active .mobile-nav {
 /* Employee testimonial section */
 .employee-testimonial-section {
   overflow: hidden;
+  background-color: #ffffff;
 }
 
 .employee-testimonial-section h2 {
@@ -972,6 +975,15 @@ footer .lower-footer {
   }
 }
 
+@media screen and (max-width: 1600px) {
+  /* Listing section */
+  .job-listing-section .listing-bg {
+    bottom: -250px;
+    left: -300px;
+    width: 800px;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   header nav {
     width: 1140px;
@@ -995,9 +1007,7 @@ footer .lower-footer {
 
   /* Listing section */
   .job-listing-section .listing-bg {
-    bottom: -100px;
-    left: -300px;
-    width: 750px;
+    width: 800px;
   }
 }
 
