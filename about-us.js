@@ -302,3 +302,21 @@ document.addEventListener("DOMContentLoaded", () => {
     updateProgressBar();
   }
 });
+
+// Expanding about us section
+document.addEventListener("DOMContentLoaded", () => {
+  const readMoreBtn = document.querySelector(".about-content .read-more-btn");
+  const content = document.querySelector(".about-content p.my-3");
+
+  readMoreBtn.addEventListener("click", () => {
+    // Toggle the "expanded" class on the content paragraph
+    content.classList.toggle("expanded");
+
+    // Change the text of the read-more button
+    if (content.classList.contains("expanded")) {
+      readMoreBtn.textContent = "Collapse";
+    } else {
+      readMoreBtn.textContent = "Read More";
+    }
+  });
+});

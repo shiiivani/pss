@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.svg" type="png/x-icon">
+    <link rel="icon" href="/favicon.svg" type="svg/x-icon">
     <link rel="stylesheet" href="blog-listing.css">
     <title>Prime Shield | Blogs</title>
     <!-- Bootstrap CSS -->
@@ -21,6 +21,7 @@
     <header>
         <div class="container position-relative">
             <nav class="d-flex align-items-center justify-content-between">
+                <!-- Web Navbar Starts -->
                 <div class="d-flex align-items-center gap-2 left-nav">
                     <div class="d-flex align-items-center gap-3">
                         <div class="hamburger">
@@ -31,52 +32,394 @@
                                 <span></span>
                             </label>
                         </div>
-                        <img src="./images/blogs/Logo.png" width="90px" alt="Logo" />
+                        <img src="./images/navbar/Logo.png" width="90px" alt="Logo" />
                     </div>
                     <div class="vertical-line"></div>
                     <button class="blue-btn">Book Your Service</button>
                 </div>
                 <ul class="d-flex align-items-center gap-4 middle-nav">
-                    <li class="d-flex align-items-center gap-2 position-relative">
+                    <li class="d-flex align-items-center gap-2">
                         <p class="mb-0">Services</p>
-                        <img src="./images/blogs/nav-arrow-down.png" width="20px" alt="Down arrow">
-                        <ul class="services-dropdown-web-view">
-                            <li>Service 1</li>
-                            <li>Service 2</li>
-                            <li>Service 3</li>
-                            <li>Service 4</li>
-                        </ul>
+                        <img src="./images/navbar/nav-arrow-down.png" width="20px" alt="Down arrow">
+                        <div class="services-dropdown-web-view d-flex">
+                            <div class="columns position-relative overflow-hidden">
+                                <div class="mb-2 box active maintenance">
+                                    <h4>Prime Home Maintenance <span><img src="./images/navbar/arrow-right.png" alt=""
+                                                width="25px"></span></h4>
+                                    <p class="mb-0">Keeping your home in top shape with trusted maintenance services
+                                        that
+                                        make
+                                        life easier.
+                                    </p>
+
+                                </div>
+                                <div class="box aesthetic">
+                                    <h4>Prime Home Aesthetic <span><img src="./images/navbar/arrow-right.png" alt=""
+                                                width="25px"></span></h4>
+                                    <p class="mb-0">Bringing your vision to life with thoughtful design and decor that
+                                        make
+                                        your
+                                        home truly yours.</p>
+
+                                </div>
+                            </div>
+                            <div class="position-relative">
+                                <div class="maintenance-services active d-flex ">
+                                    <div class="columns">
+                                        <ul class="brushstrokes">
+                                            <li class="d-flex align-items-center gap-2">
+                                                <img src="./images/navbar/brushstrokes.png" width="15px" alt="">
+                                                Brushstrokes
+                                            </li>
+                                            <li>Interior Paints</li>
+                                            <li>Exterior Paints</li>
+                                            <li>Texture Painting</li>
+                                            <li>PU/DECO</li>
+                                        </ul>
+                                        <ul class="waterproofing">
+                                            <li class="d-flex align-items-center gap-2">
+                                                <img src="./images/navbar/waterproofing.png" width="15px" alt="">
+                                                Waterproofing
+                                            </li>
+                                            <li>Terrace</li>
+                                            <li>Bedrooms</li>
+                                            <li>Bathrooms</li>
+                                        </ul>
+                                        <ul class="plumbing">
+                                            <li class="d-flex align-items-center gap-2">
+                                                <img src="./images/navbar/plumbing.png" width="15px" alt="">Plumbing
+                                            </li>
+                                            <li>Leakage</li>
+                                            <li>Tile Installation and Replacement</li>
+                                        </ul>
+                                    </div>
+                                    <div class="columns">
+                                        <ul class="wall-decor">
+                                            <li class="d-flex align-items-center gap-2">
+                                                <img src="./images/navbar/wall-decor.png" width="15px" alt="">Wall Décor
+                                            </li>
+                                            <li>Wall Panels</li>
+                                            <li>Louvers</li>
+                                            <li>Texture</li>
+                                            <li>Wallpapers</li>
+                                        </ul>
+                                        <ul class="electric-fixers active">
+                                            <li class="d-flex align-items-center gap-2">
+                                                <img src="./images/navbar/electric-fixers.png" width="15px"
+                                                    alt="">Electric
+                                                Fixers
+                                            </li>
+                                            <li>Wiring</li>
+                                            <li>Sockets</li>
+                                            <li>Lighting</li>
+                                        </ul>
+                                    </div>
+                                    <div class="columns">
+                                        <ul class="shield-wood active">
+                                            <li class="d-flex align-items-center gap-2">
+                                                <img src="./images/navbar/shield-wood.png" width="15px" alt="">Shield &
+                                                Wood
+                                            </li>
+                                            <li>Closets</li>
+                                            <li>Wardrobes</li>
+                                            <li>Kitchen</li>
+                                            <li>TV Cabinets</li>
+                                            <li>Furniture</li>
+                                            <li>Termite Solutions</li>
+                                            <li>Doors</li>
+                                            <li>Louvers</li>
+                                            <li>Veneer</li>
+                                            <li>Wall Panels</li>
+                                            <li>Ceiling Panels</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="aesthetic-services d-flex">
+                                    <div class="columns">
+                                        <ul class="brushstrokes">
+                                            <li class="d-flex align-items-center gap-2">
+                                                <img src="./images/navbar/brushstrokes.png" width="15px" alt="">
+                                                Brushstrokes
+                                            </li>
+                                            <li>Interior Paints</li>
+                                            <li>Exterior Paints</li>
+                                            <li>Texture Painting</li>
+                                            <li>PU/DECO</li>
+                                        </ul>
+                                        <ul class="wall-decor">
+                                            <li class="d-flex align-items-center gap-2">
+                                                <img src="./images/navbar/wall-decor.png" width="15px" alt="">Wall Décor
+                                            </li>
+                                            <li>Wall Panels</li>
+                                            <li>Louvers</li>
+                                            <li>Texture</li>
+                                            <li>Wallpapers</li>
+                                        </ul>
+                                    </div>
+                                    <div class="columns">
+                                        <ul class="shield-wood active">
+                                            <li class="d-flex align-items-center gap-2">
+                                                <img src="./images/navbar/shield-wood.png" width="15px" alt="">Shield &
+                                                Wood
+                                            </li>
+                                            <li>Closets</li>
+                                            <li>Wardrobes</li>
+                                            <li>Kitchen</li>
+                                            <li>TV Cabinets</li>
+                                            <li>Furniture</li>
+                                            <li>Termite Solutions</li>
+                                            <li>Doors</li>
+                                            <li>Louvers</li>
+                                            <li>Veneer</li>
+                                            <li>Wall Panels</li>
+                                            <li>Ceiling Panels</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li class="active">Blogs</li>
                     <li>About Us</li>
                     <li>Contact Us</li>
                 </ul>
                 <div class="d-flex align-items-center gap-2 right-nav">
-                    <div class="location d-flex align-items-center gap-1">
-                        <img src="./images/blogs/map-pin.png" width="20px" alt="Map Pin">
-                        <img src="./images/blogs/small-down-arrow.png" width="20px" alt="Down arrow">
+                    <div role="button" class="location d-flex align-items-center gap-1 position-relative">
+                        <img src="./images/navbar/map-pin.png" width="20px" alt="Map Pin">
+                        <img src="./images/navbar/small-down-arrow.png" width="20px" alt="Down arrow">
+                        <ul>
+                            <li>Central Zone</li>
+                            <li>City-SP Zone</li>
+                            <li>Civil Lines</li>
+                            <li>Karol Bagh</li>
+                            <li>Keshav Puram</li>
+                            <li>Najafgarh zone</li>
+                            <li>Narela</li>
+                            <li>North Shahdara Zone</li>
+                            <li>Rohini</li>
+                            <li>South Shahdara Zone</li>
+                            <li>South Zone</li>
+                            <li>West Zone</li>
+                            <li>Ghaziabad</li>
+                            <li>Noida</li>
+                            <li>Greater Noida</li>
+                            <li>Faridabad</li>
+                            <li>Gurugram</li>
+                        </ul>
                     </div>
                     <div class="search-engine position-relative">
-                        <img src="./images/blogs/search.png" width="15px" alt="Search icon">
+                        <img src="./images/navbar/search.png" width="15px" alt="Search icon">
                         <input type="text" placeholder="Search for services">
                     </div>
                     <div class="second-vertical-line"></div>
                     <button class="white-btn">Sign Up</button>
                 </div>
-                <ul class="mobile-nav">
-                    <li class="services-dropdown">
-                        <p class="mb-1">Services <span><img src="./images/blogs/nav-arrow-down.png" width="15px"
-                                    alt="Arrow down"></span></p>
+                <!-- Web Navbar Ends -->
+
+                <!-- Mobile Nav Starts -->
+                <div class="mobile-nav">
+                    <div>
+                        <div class="d-flex align-items-center gap-2 pt-3 pb-2">
+                            <div class="search-engine position-relative flex-1">
+                                <img src="./images/navbar/search.png" width="15px" alt="Search icon">
+                                <input type="text" placeholder="Search for services">
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="location d-flex align-items-center gap-1">
+                                    <img src="./images/navbar/map-pin.png" width="20px" alt="Map Pin">
+                                    <img src="./images/navbar/small-down-arrow.png" width="20px" alt="Down arrow">
+                                </div>
+                            </div>
+                        </div>
                         <ul>
-                            <li>Service 1</li>
-                            <li>Service 2</li>
-                            <li>Service 3</li>
+                            <li class="d-flex align-items-center justify-content-between">
+                                <p class="mb-1">Services </p><img src="./images/navbar/nav-arrow-down.png" width="20px"
+                                    alt="Arrow down" style="transform: rotate(-90deg)">
+                            </li>
+                            <li class="active">Blogs</li>
+                            <li>About Us</li>
+                            <li>Contact Us</li>
                         </ul>
-                    </li>
-                    <li>Blogs</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                </ul>
+                        <button class="mt-2">Sign Up</button>
+                    </div>
+
+                    <div class="location-dropdown d-none">
+                        <div class="d-flex align-items-center gap-2 pt-3 pb-2">
+                            <div class="search-engine position-relative flex-1">
+                                <img src="./images/navbar/search.png" width="15px" alt="Search icon">
+                                <input type="text" placeholder="Search for services">
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="location d-flex align-items-center gap-1">
+                                    <img src="./images/navbar/map-pin.png" width="20px" alt="Map Pin">
+                                    <img src="./images/navbar/small-down-arrow.png" width="20px" alt="Down arrow">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="overflow-hidden mobile-location-scroller">
+                            <ul class="overflow-auto">
+                                <li>Central Zone</li>
+                                <li>City-SP Zone</li>
+                                <li>Civil Lines</li>
+                                <li>Karol Bagh</li>
+                                <li>Keshav Puram</li>
+                                <li>Najafgarh zone</li>
+                                <li>Narela</li>
+                                <li>North Shahdara Zone</li>
+                                <li>Rohini</li>
+                                <li>South Shahdara Zone</li>
+                                <li>South Zone</li>
+                                <li>West Zone</li>
+                                <li>Ghaziabad</li>
+                                <li>Noida</li>
+                                <li>Greater Noida</li>
+                                <li>Faridabad</li>
+                                <li>Gurugram</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Service Dropdown Starts -->
+                    <div class="mobile-service-dropdown d-none">
+                        <h6>
+                            <span>
+                                <img src="./images/navbar/nav-arrow-down.png"
+                                    style="transform: rotate(90deg); margin-bottom:3px;" alt="" width="20px">
+                            </span>
+                            Back
+                        </h6>
+                        <div class="mobile-navbar-slider">
+                            <div class="m-2">
+                                <div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h4>Prime Home Maintenance</h4>
+                                        <img src="./images/navbar/arrow-right.png" alt="" width="22px">
+                                    </div>
+                                    <p>Keeping your home in top shape with trusted maintenance services that
+                                        make
+                                        life easier.
+                                    </p>
+                                </div>
+                                <div class="d-flex align-items-start flex-wrap">
+                                    <ul>
+                                        <li class="d-flex align-items-center gap-2">
+                                            <img src="./images/navbar/brushstrokes.png" width="15px" alt="">
+                                            Brushstrokes
+                                        </li>
+                                        <li>Interior Paints</li>
+                                        <li>Exterior Paints</li>
+                                        <li>Texture Painting</li>
+                                        <li>PU/DECO</li>
+                                    </ul>
+                                    <ul>
+                                        <li class="d-flex align-items-center gap-2">
+                                            <img src="./images/navbar/wall-decor.png" width="15px" alt="">Wall Décor
+                                        </li>
+                                        <li>Wall Panels</li>
+                                        <li>Louvers</li>
+                                        <li>Texture</li>
+                                        <li>Wallpapers</li>
+                                    </ul>
+                                    <ul>
+                                        <li class="d-flex align-items-center gap-2">
+                                            <img src="./images/navbar/waterproofing.png" width="15px" alt="">
+                                            Waterproofing
+                                        </li>
+                                        <li>Terrace</li>
+                                        <li>Bedrooms</li>
+                                        <li>Bathrooms</li>
+                                    </ul>
+
+                                    <ul class="electric-fixers">
+                                        <li class="d-flex align-items-center gap-2">
+                                            <img src="./images/navbar/electric-fixers.png" width="15px" alt="">Electric
+                                            Fixers
+                                        </li>
+                                        <li>Wiring</li>
+                                        <li>Sockets</li>
+                                        <li>Lighting</li>
+                                    </ul>
+
+                                    <ul class="shield-wood">
+                                        <li class="d-flex align-items-center gap-2">
+                                            <img src="./images/navbar/shield-wood.png" width="15px" alt="">Shield & Wood
+                                        </li>
+                                        <li>Closets</li>
+                                        <li>Wardrobes</li>
+                                        <li>Kitchen</li>
+                                        <li>TV Cabinets</li>
+                                        <li>Furniture</li>
+                                        <li>Termite Solutions</li>
+                                        <li>Doors</li>
+                                        <li>Louvers</li>
+                                        <li>Veneer</li>
+                                        <li>Wall Panels</li>
+                                        <li>Ceiling Panels</li>
+                                    </ul>
+                                    <ul>
+                                        <li class="d-flex align-items-center gap-2">
+                                            <img src="./images/navbar/plumbing.png" width="15px" alt="">Plumbing
+                                        </li>
+                                        <li>Leakage</li>
+                                        <li>Tile Installation & Replacement</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="m-2">
+                                <div>
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <h4>Prime Home Aesthetics</h4>
+                                        <img src="./images/navbar/arrow-right.png" alt="" width="22px">
+                                    </div>
+                                    <p>Bringing your vision to life with thoughtful design and decor that make
+                                        your
+                                        home truly yours.
+                                    </p>
+                                </div>
+                                <div class="d-flex align-items-start flex-wrap">
+                                    <ul>
+                                        <li class="d-flex align-items-center gap-2">
+                                            <img src="./images/navbar/brushstrokes.png" width="15px" alt="">
+                                            Brushstrokes
+                                        </li>
+                                        <li>Interior Paints</li>
+                                        <li>Exterior Paints</li>
+                                        <li>Texture Painting</li>
+                                        <li>PU/DECO</li>
+                                    </ul>
+                                    <ul>
+                                        <li class="d-flex align-items-center gap-2">
+                                            <img src="./images/navbar/wall-decor.png" width="15px" alt="">Wall Décor
+                                        </li>
+                                        <li>Wall Panels</li>
+                                        <li>Louvers</li>
+                                        <li>Texture</li>
+                                        <li>Wallpapers</li>
+                                    </ul>
+
+                                    <ul class="shield-wood">
+                                        <li class="d-flex align-items-center gap-2">
+                                            <img src="./images/navbar/shield-wood.png" width="15px" alt="">Shield & Wood
+                                        </li>
+                                        <li>Closets</li>
+                                        <li>Wardrobes</li>
+                                        <li>Kitchen</li>
+                                        <li>TV Cabinets</li>
+                                        <li>Furniture</li>
+                                        <li>Termite Solutions</li>
+                                        <li>Doors</li>
+                                        <li>Louvers</li>
+                                        <li>Veneer</li>
+                                        <li>Wall Panels</li>
+                                        <li>Ceiling Panels</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Mobile Service Dropdown Ends -->
+                    <!-- Mobile Nav Ends -->
             </nav>
 
             <div class="blogs-header d-flex align-items-center justify-content-center mt-auto">
@@ -88,7 +431,10 @@
 
     <main>
         <div class="container blog-cards m-auto">
-            <div class="card">
+            <div class="floating-whatsapp">
+                <img src="./images/blogs/floating-whatsapp.png" width="80px" alt="">
+            </div>
+            <a href="blog-details.html" class="card">
                 <div class="card-content">
                     <h6>INTERIOR DESIGN</h6>
                     <div class="d-flex align-items-center gap-2 pt-2">
@@ -103,8 +449,8 @@
                 <div class="card-image">
                     <img src="./images/blogs/blog-1.jpeg" alt="Blog Image">
                 </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="#" class="card">
                 <div class="card-content">
                     <h6>INTERIOR DESIGN</h6>
                     <div class="d-flex align-items-center gap-2 pt-2">
@@ -117,8 +463,8 @@
                 <div class="card-image">
                     <img src="./images/blogs/blog-2.jpeg" alt="Blog Image">
                 </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="#" class="card">
                 <div class="card-content">
                     <h6>INTERIOR DESIGN</h6>
                     <div class="d-flex align-items-center gap-2 pt-2">
@@ -132,8 +478,8 @@
                 <div class="card-image">
                     <img src="./images/blogs/blog-3.jpeg" alt="Blog Image">
                 </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="#" class="card">
                 <div class="card-content">
                     <h6>INTERIOR DESIGN</h6>
                     <div class="d-flex align-items-center gap-2 pt-2">
@@ -147,8 +493,8 @@
                 <div class="card-image">
                     <img src="./images/blogs/blog-4.jpeg" alt="Blog Image">
                 </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="#" class="card">
                 <div class="card-content">
                     <h6>INTERIOR DESIGN</h6>
                     <div class="d-flex align-items-center gap-2 pt-2">
@@ -162,8 +508,8 @@
                 <div class="card-image">
                     <img src="./images/blogs/blog-5.jpeg" alt="Blog Image">
                 </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="#" class="card">
                 <div class="card-content">
                     <h6>INTERIOR DESIGN</h6>
                     <div class="d-flex align-items-center gap-2 pt-2">
@@ -177,8 +523,8 @@
                 <div class="card-image">
                     <img src="./images/blogs/blog-6.jpeg" alt="Blog Image">
                 </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="#" class="card">
                 <div class="card-content">
                     <h6>INTERIOR DESIGN</h6>
                     <div class="d-flex align-items-center gap-2 pt-2">
@@ -192,8 +538,8 @@
                 <div class="card-image">
                     <img src="./images/blogs/blog-7.jpeg" alt="Blog Image">
                 </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="#" class="card">
                 <div class="card-content">
                     <h6>INTERIOR DESIGN</h6>
                     <div class="d-flex align-items-center gap-2 pt-2">
@@ -207,8 +553,8 @@
                 <div class="card-image">
                     <img src="./images/blogs/blog-8.jpeg" alt="Blog Image">
                 </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="#" class="card">
                 <div class="card-content">
                     <h6>INTERIOR DESIGN</h6>
                     <div class="d-flex align-items-center gap-2 pt-2">
@@ -222,8 +568,8 @@
                 <div class="card-image">
                     <img src="./images/blogs/blog-9.jpeg" alt="Blog Image">
                 </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="#" class="card">
                 <div class="card-content">
                     <h6>INTERIOR DESIGN</h6>
                     <div class="d-flex align-items-center gap-2 pt-2">
@@ -237,8 +583,8 @@
                 <div class="card-image">
                     <img src="./images/blogs/blog-10.jpeg" alt="Blog Image">
                 </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="#" class="card">
                 <div class="card-content">
                     <h6>INTERIOR DESIGN</h6>
                     <div class="d-flex align-items-center gap-2 pt-2">
@@ -252,8 +598,8 @@
                 <div class="card-image">
                     <img src="./images/blogs/blog-11.jpeg" alt="Blog Image">
                 </div>
-            </div>
-            <div class="card">
+            </a>
+            <a href="#" class="card">
                 <div class="card-content">
                     <h6>INTERIOR DESIGN</h6>
                     <div class="d-flex align-items-center gap-2 pt-2">
@@ -267,7 +613,7 @@
                 <div class="card-image">
                     <img src="./images/blogs/blog-12.jpeg" alt="Blog Image">
                 </div>
-            </div>
+            </a>
         </div>
     </main>
 
@@ -275,41 +621,28 @@
         <div class="container">
             <div class="upper-footer d-flex align-items-start justify-content-between">
                 <div class="column">
-                    <img src="./images/logo.png" width="140px" alt="Logo">
-                    <p class="mt-2">Gorem ipsum dolor sit amet, consectetur<br> adipiscing elit. Nunc vulputate libero
-                        et velit<br> interdum,
-                        ac
-                        aliquet odio mattis.</p>
+                    <img src="./images/navbar/logo.png" width="100px" alt="Logo">
+                    <p class="mt-2">Founded in 2024, PSS brings you over 100<br> services crafted to make your
+                        experience<br>
+                        exceptional. We’re here to make things<br> easier, one step at a time.
+                    </p>
                 </div>
                 <ul class="column">
                     <li> <a href="#">
                             Explore
                         </a></li>
+                    <li> <a href="#">
+                            Book Your Service
+                        </a></li>
                     <li class="active"> <a href="#">
                             Blogs
                         </a></li>
                     <li> <a href="#">
-                            Career Page
+                            Careers
+                            <span> We're Hiring!</span>
                         </a></li>
                     <li><a href="#">
                             About Us
-                        </a></li>
-                </ul>
-                <ul class="column">
-                    <li><a href="#">
-                            Services
-                        </a></li>
-                    <li> <a href="#">
-                            Plumbing
-                        </a></li>
-                    <li><a href="#">
-                            Interior Designing
-                        </a></li>
-                    <li><a href="#">
-                            Leakages
-                        </a></li>
-                    <li><a href="#">
-                            Redesigning
                         </a></li>
                 </ul>
                 <ul class="column">
@@ -326,9 +659,21 @@
                             Contact Us
                         </a></li>
                 </ul>
+                <ul class="column">
+                    <li><a href="#">
+                            Services
+                        </a></li>
+                    <li> <a href="#">
+                            Prime Home Maintenance
+                        </a></li>
+                    <li><a href="#">
+                            Prime Home Aesthetic
+                        </a></li>
+                </ul>
+
             </div>
             <div class="lower-footer d-flex align-items-start justify-content-between">
-                <p>© 2025 prime shield services. All rights reserved.</p>
+                <p>© 2025 Prime Shield Services. All rights reserved.</p>
                 <div class="d-flex align-items-center gap-3">
                     <a href="#"><img src="./images/blogs/instagram.png" width="30px"></a>
                     <a href="#"><img src="./images/blogs/twitter.png" width="30px"></a>
