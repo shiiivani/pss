@@ -1001,8 +1001,8 @@ footer .lower-footer {
     right: -10px;
   }
 
-  .services-dropdown-web-view .columns {
-    padding: 20px 20px 20px 20px;
+  .services-dropdown-web-view > div .columns {
+    padding: 20px 20px 20px 20px !important;
   }
 
   /* Listing section */

@@ -40,7 +40,7 @@ h1 {
 }
 
 .form-container > div {
-  padding: 25px 30px 55px 30px;
+  padding: 25px 30px 45px 30px;
   width: 100%;
 }
 
@@ -311,6 +311,13 @@ form button {
   }
   .login .container {
     justify-content: center !important;
+  }
+}
+
+@media screen and (max-height: 645px) {
+  .login {
+    height: max-content;
+    padding: 30px;
   }
 }
 

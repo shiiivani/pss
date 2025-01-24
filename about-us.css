@@ -112,6 +112,7 @@ nav > ul li.active:after {
 
 .middle-nav {
   z-index: 3;
+  gap: 1.5rem;
 }
 
 .middle-nav > li {
